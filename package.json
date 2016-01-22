@@ -10,6 +10,7 @@
     "replace-require-self": "^1.0.1"
   },
   "files": [
+    "LICENSE",
     "README.md",
     "index.js"
   ],
