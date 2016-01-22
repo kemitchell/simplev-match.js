@@ -3,7 +3,7 @@
   "description": "Does a simplev match a requirement?",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "dependencies": {
-    "simplev-parse": "^1.0.0"
+    "simplev-parse": "^2.0.0"
   },
   "devDependencies": {
     "defence-cli": "^1.0.5",
