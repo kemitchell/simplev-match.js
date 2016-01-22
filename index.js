@@ -3,7 +3,7 @@ module.exports = simplevMatch
 var parse = require('simplev-parse')
 
 // Components of a simplev, in descending order of precedence.
-var components = [ 'edition', 'revision', 'correction', 'draft' ]
+var components = [ 'edition', 'update', 'correction', 'draft' ]
 
 function simplevMatch(requirementString, simplevString) {
   // First argument must be a valid simplev.

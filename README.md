@@ -4,13 +4,13 @@ var assert = require('assert')
 
 assert( match('1.1.1',   '1.1.1'))
 assert( match('1.1.0',   '1.1.1'))
-assert( match('1.0.0',   '1.1.1'))
 assert( match('1.0.0-1', '1.0.0'))
 assert( match('1.0.0-1', '1.0.0-2'))
 
 assert(!match('2.0.0',   '1.1.1'))
 assert(!match('2.0.0',   '1.1.1'))
 assert(!match('1.1.2',   '1.1.1'))
+assert(!match('1.1.1',   '1.0.1'))
 assert(!match('1.0.0-2', '1.0.0-1'))
 
 assert.throws(
