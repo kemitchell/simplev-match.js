@@ -1,6 +1,7 @@
 {
   "name": "simplev-match",
   "description": "Does a simplev match a requirement?",
+  "version": "1.0.0",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "dependencies": {
     "simplev-parse": "^2.0.0"
@@ -18,6 +19,5 @@
   "repository": "kemitchell/simplev-match.js",
   "scripts": {
     "test": "cat README.md | defence | replace-require-self | node"
-  },
-  "version": "1.0.0"
+  }
 }
